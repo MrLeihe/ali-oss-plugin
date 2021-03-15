@@ -1,0 +1,10 @@
+# Dependency directory
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ide
+.idea/
+
+#mac temp file
+.DS_Store

@@ -1,0 +1,32 @@
+{
+  "name": "ali-oss-plugin",
+  "version": "1.0.0",
+  "description": "a webpack plugin of upload file to ali-oss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MrLeihe/ali-oss-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "ali-oss"
+  ],
+  "author": "stone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrLeihe/ali-oss-plugin/issues"
+  },
+  "homepage": "https://github.com/MrLeihe/ali-oss-plugin#readme",
+  "dependencies": {
+    "ali-oss": "^6.13.2",
+    "globby": "^10.0.1",
+    "slash": "^3.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0"
+  }
+}
