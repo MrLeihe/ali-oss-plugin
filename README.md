@@ -1,4 +1,4 @@
-## ali-oss-upload-plugin
+## upload-ali-oss-plugin
 
 A webpack plugin to upload assets to aliyun oss
 
@@ -9,13 +9,15 @@ A webpack plugin to upload assets to aliyun oss
 1. 安装包
 
 ```bash
-$ npm install ali-oss-upload-plugin or yarn add ali-oss-upload-plugin
+$ npm install upload-ali-oss-plugin -D
+or
+$ yarn add upload-ali-oss-plugin -D
 ```
 
 2. 在 config 文件中引入，添加到 plugins
 
 ```javascript
-const AliOssPlugin = require('ali-oss-upload-plugin')
+const AliOssPlugin = require('upload-ali-oss-plugin')
 
 // webpack config, oss 配置
 const { OSS } = require('./oss')
