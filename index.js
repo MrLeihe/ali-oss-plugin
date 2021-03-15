@@ -13,8 +13,9 @@ class AliOssPlugin {
         ossPath: '',
         patterns: '',
         verbose: true,
-        timeout: 30 * 100,
+        timeout: 60 * 100,
         overwrite: true,
+        bucket: 'oss-cn-hangzhou',
       },
       options
     )
@@ -50,7 +51,6 @@ class AliOssPlugin {
 
       let filepaths = await globby(fromPatterns)
 
-      // 相对路径转换成绝对路径
       filepaths = filepaths.map((file) => path.resolve(file))
 
       if (filepaths.length) {

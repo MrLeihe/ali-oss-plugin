@@ -1,5 +1,5 @@
 {
-  "name": "ali-oss-plugin",
+  "name": "ali-oss-upload-plugin",
   "version": "1.0.0",
   "description": "a webpack plugin of upload file to ali-oss",
   "main": "index.js",
